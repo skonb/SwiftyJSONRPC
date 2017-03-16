@@ -12,5 +12,6 @@ Pod::Spec.new do |s|
   s.osx.deployment_target = '10.8'
 
   s.source_files = 'Sources/*.swift'
+  s.dependency 'SwiftyJSON'
 
 end
